@@ -1,0 +1,29 @@
+Projekt zaliczeniowy nr 1 
+1. Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/YglqfahKunKX59rnf4xL5Snc/Projekt-zaliczeniowy-1?node-id=0%3A1 
+2. Czcionka, której u¿ywamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
+3. Przygotuj kontener o rozmiarze 960px (szerokoœæ), który bêdzie zawsze na œrodku - to w nim umieszczaj treœæ
+4. Pierwsza z sekcji powinna zajmowaæ 100% wysokoœci okna przegl¹darki (vh)
+5. Zdjêcie w tle na stronie tytu³owej mo¿e byæ dowolnym zdjêciem o rozmiarze maksymalnie 1920x1080 i wadze nieprzekraczaj¹cej 400 KB (mo¿esz u¿yæ Lorem Picsum). Pamiêtaj, ¿e musisz na³o¿yæ na nie kolejnego diva, który je czêœciowo przykryje - bêdzie “cieniem”. Robi siê to po to aby tekst na zdjêciu by³ bardziej czytelny (kontrast).
+6. Po najechaniu na przycisk na stronie g³ównej (z t³em), spraw, ¿e jego t³o stanie siê bia³e, a tekst czarny (border pozostaje bez zmian). Zmiana powinna byæ p³ynna i trwaæ sekundê. Przycisk po klikniêciu powinien nas przenieœæ do sekcji “oferta”. transition;
+7. Spraw aby przyciski w nawigacji “o nas” oraz “oferta” przenosi³y u¿ytkownika w odpowiednie miejsce na stronie przy zachowaniu p³ynnego scrolla. Przycisk “kontakt” powinien byæ “disabled” czyli nieaktywny (ustaw odpowiedni kursor). cursor: not-allowed
+8. Zdjêcia “pracowników” powinny byæ zdjêciami przedstawiaj¹cymi osoby o rozmiarze maksymalnie 500x500. Twoim zadaniem jest ustawiæ je jako zdjêcie t³a diva, który jest okr¹g³y. Pamiêtaj, ¿e zdjêcie powinno dopasowaæ siê rozmiarem do diva oraz wycentrowaæ w pionie i poziomie.
+9. W zak³adce “o nas” elementy z pracownikami powinny mieæ wspóln¹ klasê, ale mieæ jeden modyfikator, który sprawia, ¿e ka¿dy nieparzysty 
+zaczyna siê zdjêciem z lewej, a ka¿dy parzysty zdjêciem z prawej strony. nth-of-type(odd) / nth-of-type(even)
+10. Paddingi we wszystkich sekcjach powinny byæ ujednolicone (górny i dolny powinny byæ takie same, a treœæ sekcji powinna zaczynaæ siê
+ i koñczyæ w tej samej linii).
+11. W boksach, niewa¿ne jak¹ iloœæ treœci podamy, powinna byæ zawsze wyœrodkowana w pionie i poziomie.
+12. Po najechaniu na boxy, spraw aby powiêkszy³y siê o 5% przy pomocy funkcji transform: scale(1.05). 
+Spraw aby animacja by³a p³ynna i trwa³a pó³ sekundy
+13. Ikony, z których bêdziesz korzystaæ znajdziesz w paczce FontAwesome (https://fontawesome.com/)
+
+
+Projekt zaliczeniowy nr 2 
+Twój pierwszy projekt zaliczeniowy nale¿y przerobiæ na wersjê responsywn¹. Pod wskazanym adresem znajdziesz design mobilnej wersji strony. Twoim zadaniem jest równie¿ zaprogramowanie rozs¹dnej wersji tabletowej, trzymaj¹c siê dobrych praktyk RWD. 
+Pamiêtaj o stosowaniu mobile first! Nie powinieneœ u¿ywaæ Bootstrapa, tylko przygotowaæ responsywny kontener samodzielnie. 
+
+
+Zadanie zaliczeniowe nr 3 (bonus)
+
+https://www.figma.com/file/4aVUTUIQobT41w5rVKwlQO/data-warehouse-landing-page-for-figma 
+
+Wykorzystuj¹c powy¿szego linka do designu na portalu Figma, zastosuj wszystkie poznane Ci wczeœniej praktyki do zaprogramowania widoków zgodnie z designem. Nie musisz implementowaæ ¿adnych funkcjonalnoœci, wystarczy sam design. 
