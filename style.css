@@ -94,16 +94,16 @@ nav a {
 }
 
 .btn-offer {
-    padding: 0;
+    width: 9%;
+    padding: 2% 10%;
     border: 3px solid #ffffff;
     background-color: transparent;
     font-size: 18px;
     cursor: pointer;
-}
-
-.btn-offer {
-    color: #ffffff;
+    text-align-last: center;
     text-decoration: none;
+    text-align: justify;
+    color:white;
 }
 
 .btn-offer:hover {
@@ -162,11 +162,11 @@ nav a {
 }
 
 .pic-reverse {
-    background-image: url(./pictures/pexels-simon-robben-614810\ \(2\).jpg);
+    background-image: url(./pictures/pexels-andrea-piacquadio-774909.jpg);
 }
 
 .pic-straight {
-    background-image: url(./pictures/pexels-pixabay-415829.jpg);
+    background-image: url(./pictures/pexels-pixabay-220453.jpg);
 }
 
 /* offer*/
